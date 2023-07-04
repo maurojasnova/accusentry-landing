@@ -103,13 +103,13 @@ export default function Header() {
           </Popover>
 
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Features
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Marketplace
+            Solutions
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Company
+          </a>
+          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            Contact
           </a>
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">

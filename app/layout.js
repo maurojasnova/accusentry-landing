@@ -3,7 +3,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 
 export const metadata = {
-  title: 'AccuSentry',
+  title: 'AccuSentry | Vision Systems',
   description: 'Machine Vision Company',
 }
 
