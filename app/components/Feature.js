@@ -1,22 +1,33 @@
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import { CloudArrowUpIcon, LockClosedIcon, ServerIcon, CheckCircleIcon } from '@heroicons/react/20/solid'
 
 const features = [
     {
-        name: 'Improve your process consistency.',
+        name: 'Quality Assurance.',
         description:
-            'Monitor and analyze production processes in real-time.',
-        icon: CloudArrowUpIcon,
+            'We help you reduce customer complaints and guarantee your products are within specification via 100% product inspection.',
+        icon: CheckCircleIcon,
     },
     {
-        name: 'Reduce Product Waste.',
-        description: 'Enable precise quality control by inspecting products for defects, flaws, or non-conformities.',
-        icon: LockClosedIcon,
+        name: 'Comprehensible Production Data.',
+        description: 'Unlock the potential of your data. We highlight process inefficiencies in real-time, empowering you to optimize production workflows.',
+        icon: CheckCircleIcon,
     },
     {
-        name: 'Minimize downtime.',
-        description: 'Integrated with predictive maintenance strategies to monitor equipment health and detect potential issues.',
-        icon: ServerIcon,
+        name: 'Machine Speed Optimization.',
+        description: 'Balance speed and quality efficiently. Our system aids in pinpointing defect trends and understanding optimal machine speeds, aiding in reject rate reduction.',
+        icon: CheckCircleIcon,
     },
+    {
+        name: 'Labor Cost Reduction.',
+        description: 'Cut back on manual quality checks and high labor overheads. Our automated inspection system enables you to refocus resources on strategic priorities.',
+        icon: CheckCircleIcon,
+    },
+    {
+        name: 'Understand Operating Team and SKU Performance.',
+        description: 'Leverage comprehensive insights into team and SKU performance to drive targeted improvements and elevate overall output.',
+        icon: CheckCircleIcon,
+    },
+
 ]
 
 export default function Feature() {
