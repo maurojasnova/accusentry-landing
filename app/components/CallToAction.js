@@ -1,9 +1,9 @@
 export default function CallToAction() {
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-        <div className="relative isolate  bg-gray-600 px-6 py-16 sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
-          <div className="mx-auto  text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
+      <div className="mx-auto max-w-7xl py-4 sm:px-6 lg:px-8">
+        <div className="relative isolate  bg-gray-600 px-6 py-0 sm:rounded-3xl sm:px-16 lg:flex lg:gap-x-20 lg:px-24">
+          <div className="mx-auto  text-center lg:mx-0 lg:flex-auto py-16 lg:text-left">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Boost your machines PERFORMANCE.
               <br />
