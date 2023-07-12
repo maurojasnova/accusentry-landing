@@ -14,7 +14,7 @@ import {
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 
 const products = [
-  { name: 'SentryDash 2.0', description: 'All your machine processes in one dashboard', href: '#', icon: ChartPieIcon },
+  { name: 'SentryDash 2.0', description: 'All your machine processes in one dashboard', href: '/products/sentrydash', icon: ChartPieIcon },
   { name: 'Single Reject', description: 'Reduce your product waste', href: '#', icon: CursorArrowRaysIcon },
   { name: 'SentryCore', description: 'Monitor your SAP and fluff', href: '#', icon: FingerPrintIcon },
   { name: 'SentryHub', description: 'Supervise your machines in one place', href: '#', icon: SquaresPlusIcon },
@@ -35,7 +35,7 @@ export default function Header() {
     <header className="bg-white">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">AccuSentry</span>
             <img className="h-8 w-auto" src="/logo.png" alt="" />
           </a>
@@ -53,7 +53,7 @@ export default function Header() {
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
-              Product
+              Products
               <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
             </Popover.Button>
 
