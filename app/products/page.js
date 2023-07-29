@@ -15,39 +15,35 @@
 const products = [
     {
         id: 1,
-        name: 'Basic Tee',
-        href: '#',
+        name: 'SentryDash',
+        href: '/products/sentrydash',
         imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
-        price: '$35',
-        color: 'Black',
+        imageAlt: "Sentrydash.",
+        description: 'Real-time dashboard for production intelligence',
     },
     {
-        id: 1,
-        name: 'Basic Tee',
-        href: '#',
+        id: 2,
+        name: 'Single Reject',
+        href: '/products/singlereject',
         imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
-        price: '$35',
-        color: 'Black',
+        imageAlt: "Single Reject.",
+        description: 'Reduce your product waste',
     },
     {
-        id: 1,
-        name: 'Basic Tee',
+        id: 3,
+        name: 'SentryCore',
         href: '#',
         imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
-        price: '$35',
-        color: 'Black',
+        imageAlt: "Sentrycore.",
+        description: 'Monitor your SAP and fluff',
     },
     {
-        id: 1,
-        name: 'Basic Tee',
+        id: 4,
+        name: 'SentryHub',
         href: '#',
         imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-        imageAlt: "Front of men's Basic Tee in black.",
-        price: '$35',
-        color: 'Black',
+        imageAlt: "SentryHub.",
+        description: 'Supervise your machines in one place',
     },
     // More products...
 ]
@@ -75,9 +71,8 @@ export default function Products() {
                                             {product.name}
                                         </a>
                                     </h3>
-                                    <p className="mt-1 text-sm text-gray-500">{product.color}</p>
+                                    <p className="mt-1 text-sm text-gray-500">{product.description}</p>
                                 </div>
-                                <p className="text-sm font-medium text-gray-900">{product.price}</p>
                             </div>
                         </div>
                     ))}
