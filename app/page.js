@@ -8,7 +8,7 @@ import CallToAction from './components/CallToAction'
 export default function Home() {
   return (
     <main>
-      <Hero />
+      <Hero title="Vision systems for better performance" description="AccuSentry empowers production management and personnel to achieve 100% inspections, and activate process and production intelligence by delivering collaborative means to monitor and improve performance."/>
       <LogoClouds />
       <Feature />
       <Stats />
