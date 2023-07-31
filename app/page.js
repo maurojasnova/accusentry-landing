@@ -44,7 +44,7 @@ export default function Home() {
       <Feature subtitle="Production Intelligence" title="Machine Vision" description="Convey key centerlining measures and capability of production process in real time." features={features} imageRoute="/visionSystem.jpg" imageAlt="Vision System" imageWidth={2000} imageHeight={1000} />
       <Stats />
       <Testimonial />
-      <CallToAction />
+      <CallToAction productName="AccuSentry" />
     </main>
   )
 }

@@ -34,7 +34,7 @@ export default function SingleReject() {
     <main>
       <Hero title="Single Reject" description="Reject one product for every defect found with high accuracy without expensive hardware." />
       <Feature subtitle="Production Intelligence" title="Single Reject" description="Reduce your product waste and mantain your product quality with our reject gate control." features={features} imageRoute="/visionSystem.jpg" imageAlt="Vision System" imageWidth={2000} imageHeight={1000} />
-      <CallToAction />
+      <CallToAction productName="Single Reject"/>
     </main>
   )
 }
