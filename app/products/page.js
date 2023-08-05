@@ -3,17 +3,9 @@ const products = [
         id: 1,
         name: 'SentryDash',
         href: '/products/sentrydash',
-        imageSrc: '/features/sentrydash.png',
-        imageAlt: "Sentrydash.",
-        description: 'Real-time dashboard for production intelligence',
-    },
-    {
-        id: 2,
-        name: 'Single Reject',
-        href: '/products/singlereject',
         imageSrc: '/features/visionSystem.jpg',
-        imageAlt: "Single Reject.",
-        description: 'Reduce your product waste',
+        imageAlt: "Sentrydash.",
+        description: 'Activate real-time production intelligence',
     },
     {
         id: 3,
@@ -25,12 +17,20 @@ const products = [
     },
     {
         id: 4,
-        name: 'SentryHub',
-        href: '/products/sentryhub',
+        name: 'SentryView',
+        href: '/products/sentryview',
         imageSrc: '/features/visionSystem.jpg',
-        imageAlt: "SentryHub.",
-        description: 'Supervise your machines in one place',
+        imageAlt: "SentryView.",
+        description: 'Supervise your products',
     },
+    {
+        id: 5,
+        name: 'SentrySeal',
+        href: '/products/sentryview',
+        imageSrc: '/features/visionSystem.jpg',
+        imageAlt: "SentryView.",
+        description: 'Inspect your package seals',
+    }
     // More products...
 ]
 
