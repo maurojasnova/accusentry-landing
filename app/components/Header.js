@@ -11,22 +11,6 @@ import {
   SquaresPlusIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
-import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
-
-const products = [
-  { name: 'SentryDash 2.0', description: 'All your machine processes in one dashboard', href: '/products/sentrydash', icon: ChartPieIcon },
-  { name: 'Single Reject', description: 'Reduce your product waste', href: '#', icon: CursorArrowRaysIcon },
-  { name: 'SentryCore', description: 'Monitor your SAP and fluff', href: '#', icon: FingerPrintIcon },
-  { name: 'SentryHub', description: 'Supervise your machines in one place', href: '#', icon: SquaresPlusIcon },
-]
-const callsToAction = [
-  { name: 'Watch demo', href: '#', icon: PlayCircleIcon },
-  { name: 'Contact sales', href: '#', icon: PhoneIcon },
-]
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -50,10 +34,10 @@ export default function Header() {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-12" ><a href="/products" className="text-sm font-semibold leading-6 text-gray-900">
+        <div className="hidden lg:flex lg:gap-x-12" ><a href="/products/" className="text-sm font-semibold leading-6 text-gray-900">
           Products
         </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/solutions/" className="text-sm font-semibold leading-6 text-gray-900">
             Solutions
           </a>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
